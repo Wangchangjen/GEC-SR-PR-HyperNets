@@ -31,7 +31,5 @@ We provide the codes in a way that you can perform based on the simulator for "P
 
   main_phase_retrieval
   
---------------------------------------------------------------------------------------------------------------------------------------
-The simulator returns a plot of the MSE of iterations for our proposed phase retrieval algorithms.
-<div align=center><img width="600" height="600" src="https://github.com/Wangchangjen/Matlab_deGEC-SR/blob/master/EXAMPLE.png"/></div>
+
 
