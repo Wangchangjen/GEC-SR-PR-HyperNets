@@ -24,8 +24,6 @@ We provide the training codes in a way that you can perform based on re-training
 - Step 3. Now, you are ready to run the training code:<br>
   AA.py train GEC-SR-HyperNet <br>
   AB.py train GEC-SR-HyperGRU
-
-  main_phase_retrieval
   
 
 
