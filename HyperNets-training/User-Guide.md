@@ -16,7 +16,7 @@ C. J. Wang, C. K. Wen, S. H. Tsai, S. Jin, and G. Y. Li, Phase Retrieval using E
 We provide the training codes in a way that you can perform based on re-training for different related channel of phase retrieval.
 
 
-# How to start a training:
+# How to start a training :
 - Step 1. Install python (3.5.2) and tensorflow (v1.14)
 
 - Step 2. Add folders (i.e., X_ini2.py & AA.py & AB.py) to the same directory
