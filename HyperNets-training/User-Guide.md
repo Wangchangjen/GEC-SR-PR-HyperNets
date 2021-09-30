@@ -6,7 +6,10 @@
 - GEC-SR-HyperNet: Generalized expectation consistent signal recovery based on HyperNet with Attention
 - GEC-SR-HyperGRU: Generalized expectation consistent signal recovery based on dynamic HyperNet with Attention
 
-For phase retrieval, GEC-SR based on sutiable damping factors to get good performance. However, the learning parameters of the existing unfolded algorithms are trained for a specific task of image recovery. Retraining the parameters is often needed in a clinical setting, where different forward models (e.g., measurement distribution and size, and noise level) may be used; otherwise, the stability and optimality of the learned algorithm will be lost. Instead of learning a set of optimal damping factors directly, the hypernetwork learns how to generate the optimal damping factors according to the clinical settings, thereby ensuring its adaptivity to different scenarios. For details, please refer to 
+For phase retrieval, GEC-SR based on sutiable damping factors to get good performance.
+However, the learning parameters of the existing unfolded algorithms are trained for a specific task of image recovery. 
+Retraining the parameters is often needed in a clinical setting, where different forward models (e.g., measurement distribution and size, and noise level) may be used; otherwise, the stability and optimality of the learned algorithm will be lost.
+Instead of learning a set of optimal damping factors directly, the hypernetwork learns how to generate the optimal damping factors according to the clinical settings, thereby ensuring its adaptivity to different scenarios. For details, please refer to 
 
 C. J. Wang, C. K. Wen, S. H. Tsai, S. Jin, and G. Y. Li, Phase Retrieval using Expectation Consistent Signal Recovery Algorithm based on Hypernetwork, IEEE Trans. signal process., 2021, to appear.
 
