@@ -1,5 +1,5 @@
-# Simulation for "Decentralized Expectation Consistent Signal Recovery for Phase Retrieval"
-(c) 2020 Chang-Jen Wang and Chao-Kai Wen e-mail: dkman0988@gmail.com and chaokai.wen@mail.nsysu.edu.tw
+# Training Hypernetworks for "Phase Retrieval using Expectation Consistent Signal Recovery Algorithm based on Hypernetwork"
+(c) 2021 Chang-Jen Wang and Chao-Kai Wen e-mail: dkman0988@gmail.com and chaokai.wen@mail.nsysu.edu.tw
 
 --------------------------------------------------------------------------------------------------------------------------
 # Information:
