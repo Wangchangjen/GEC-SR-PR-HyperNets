@@ -3,31 +3,24 @@
 
 --------------------------------------------------------------------------------------------------------------------------
 # Information:
-- GEC-SR: Generalized expectation consistent signal recovery
-- deGEC-SR: Decentralized expectation consistent signal recovery
+- GEC-SR-HyperNet: Generalized expectation consistent signal recovery based on HyperNet with Attention
+- GEC-SR-HyperGRU: Generalized expectation consistent signal recovery based on dynamic HyperNet with Attention
 
-For phase retrieval, GEC-SR is good performance and deGEC-SR is good efficient algorithm. For details, please refer to 
+For phase retrieval, GEC-SR based on sutiable damping factors to get good performance. However, the learning parameters of the existing unfolded algorithms are trained for a specific task of image recovery. Retraining the parameters is often needed in a clinical setting, where different forward models (e.g., measurement distribution and size, and noise level) may be used; otherwise, the stability and optimality of the learned algorithm will be lost. Instead of learning a set of optimal damping factors directly, the hypernetwork learns how to generate the optimal damping factors according to the clinical settings, thereby ensuring its adaptivity to different scenarios. For details, please refer to 
 
-C. J. Wang, C. K. Wen, S. H. Tsai, and S. Jin, Decentralized Expectation Consistent Signal Recovery for Phase Retrieval, IEEE Trans. signal process., 2020, to appear.
+C. J. Wang, C. K. Wen, S. H. Tsai, S. Jin, and G. Y. Li, Phase Retrieval using Expectation Consistent Signal Recovery Algorithm based on Hypernetwork, IEEE Trans. signal process., 2021, to appear.
 
-We provide the codes in a way that you can perform based on the simulator for "Phase retrieval". Therefore, you can compare several different phase retrieval algorithms under the same setting.
+We provide the training codes in a way that you can perform based on re-training for different related channel of phase retrieval.
 
 
-# How to start a simulation:
-- For phase retrieval, the prior algorithms (e.g., Fienup, Wirtflow, Gerchbergsaxton, Phasemax, PhaseLamp, etal.) can download from
-  https://github.com/tomgoldstein/phasepack-matlab
+# How to start a training:
+- Step 1. Install python (3.5.2) and tensorflow (v1.14)
 
-- Step 1. Download our proposed phase retrieval algorithms (GEC_SR.m & DeGEC_SR.m), which can be found
-
-  https://github.com/Wangchangjen/Matlab_deGEC-SR
+- Step 2. Add folders (i.e., X_ini2.py & AA.py & AB.py) to the same directory
   
-- Step 2. Add folders (i.e., Estimation, Operator, Solvers) to the executive directory
-  
-- Step 3. In main_phase_retrieval.m, find the line 
-
-  You can select GEC-SR or deGEC-SR based on L. L=1 is GEC-SR and other algorithms. L > 1 is deGEC-SR.
-  
-- Step 4. Now, you are ready to run the phase retrieval:
+- Step 3. Now, you are ready to run the training code:
+- AA.py train GEC-SR-HyperNet
+- AB.py train GEC-SR-HyperGRU
 
   main_phase_retrieval
   
