@@ -11,8 +11,11 @@
 - Step 2. Add folders (i.e., Matlab_code) to the executive directory
   
 - Step 3. main_FFTBased_DE.m run the testing simulator, where <br>
-GECSR_Hyper.m 
-  
+GECSR_Hyper.m is PR of GEC-SR HyperNet
+GECSR_GRU.m is PR of GEC-SR HyperGRU
+PR_algorithms.m is PR of prior algorithms<br>
+Note:  HyperNet_NN_mul4_attention.mat and HyperNet_GRU_attention.mat are the trained weights for HyperNet and HyperGRU, respectively.
+
 --------------------------------------------------------------------------------------------------------------------------------------
 The simulator returns a plot of the MSE of iterations for our proposed algorithms and convergence performance of prior algorithms.
 <div align=center><img width="600" height="600" src="https://github.com/Wangchangjen/GEC-SR-PR-HyperNets/blob/main/HyperNets-test/Matlab_code/Result.png"/></div>
