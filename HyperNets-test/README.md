@@ -33,5 +33,5 @@ We provide the codes in a way that you can perform based on the simulator for "P
   
 --------------------------------------------------------------------------------------------------------------------------------------
 The simulator returns a plot of the MSE of iterations for our proposed phase retrieval algorithms.
-<div align=center><img width="600" height="600" src="https://github.com/Wangchangjen/Matlab_deGEC-SR/blob/master/EXAMPLE.png"/></div>
+<div align=center><img width="600" height="600" src="https://github.com/Wangchangjen/GEC-SR-PR-HyperNets/blob/main/HyperNets-test/Matlab_code/Result.png"/></div>
 
