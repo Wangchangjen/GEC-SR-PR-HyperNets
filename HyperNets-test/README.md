@@ -3,7 +3,7 @@
 
 --------------------------------------------------------------------------------------------------------------------------
 # How to start a simulation:
-- For phase retrieval, the prior algorithms (e.g., TAF, RWF, HIO, Fienup, Wirtflow, Gerchbergsaxton, Phasemax, PhaseLamp, etal.) can download from<br>
+- For phase retrieval, the prior algorithms (e.g., TAF, RWF, HIO, Fienup, Wirtflow, Gerchbergsaxton, Phasemax, PhaseLamp, etal.) can download from
   https://github.com/tomgoldstein/phasepack-matlab
 
 - Step 1. Download our proposed phase retrieval algorithms (i.e., "Matlab_code" file).
