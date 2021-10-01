@@ -3,14 +3,14 @@
 
 --------------------------------------------------------------------------------------------------------------------------
 # How to start a simulation:
-- For phase retrieval, the prior algorithms (e.g., TAF, RWF, HIO, Fienup, Wirtflow, Gerchbergsaxton, Phasemax, PhaseLamp, etal.) can download from
+- For phase retrieval, the prior algorithms (e.g., TAF, RWF, HIO, Fienup, Wirtflow, Gerchbergsaxton, Phasemax, PhaseLamp, etal.) can download from<br>
   https://github.com/tomgoldstein/phasepack-matlab
 
 - Step 1. Download our proposed phase retrieval algorithms (i.e., "Matlab_code" file).
   
 - Step 2. Add folders (i.e., Matlab_code) to the executive directory
   
-- Step 3. main_FFTBased_DE.m run the testing simulator, where </div>
+- Step 3. main_FFTBased_DE.m run the testing simulator, where <br>
 GECSR_Hyper.m 
   
 --------------------------------------------------------------------------------------------------------------------------------------
