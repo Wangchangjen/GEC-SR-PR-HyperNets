@@ -22,6 +22,6 @@ We provide the training codes in a way that you can perform based on re-training
 - Step 2. Add folders (i.e., X_ini2.py & AA.py & AB.py) to the same directory
   
 - Step 3. Now, you are ready to run the training code:<br>
-  AA.py train GEC-SR-HyperNet <br>
-  AB.py train GEC-SR-HyperGRU
+  GEC_SR_net_HyperNet_A.py train GEC-SR-HyperNet <br>
+  GEC_SR_net_HyperGRU_A.py train GEC-SR-HyperGRU
   
