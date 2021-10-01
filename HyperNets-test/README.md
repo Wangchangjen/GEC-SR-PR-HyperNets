@@ -11,12 +11,9 @@
 - Step 2. Add folders (i.e., Matlab_code) to the executive directory
   
 - Step 3. main_FFTBased_DE.m run the testing simulator.<br>
-GECSR_Hyper.m is PR of GEC-SR HyperNet<br>
-
-GECSR_GRU.m is PR of GEC-SR HyperGRU<br>
-
+GECSR_Hyper.m is PR of GEC-SR HyperNet<br><br>
+GECSR_GRU.m is PR of GEC-SR HyperGRU<br><br>
 PR_algorithms.m is PR of prior algorithms<br>
-
 Note:  HyperNet_NN_mul4_attention.mat and HyperNet_GRU_attention.mat are the trained weights for HyperNet and HyperGRU, respectively.
 
 --------------------------------------------------------------------------------------------------------------------------------------
