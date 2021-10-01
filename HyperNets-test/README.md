@@ -32,6 +32,6 @@ We provide the codes in a way that you can perform based on the simulator for "P
   main_phase_retrieval
   
 --------------------------------------------------------------------------------------------------------------------------------------
-The simulator returns a plot of the MSE of iterations for our proposed phase retrieval algorithms.
+The simulator returns a plot of the MSE of iterations for our proposed algorithms and convergence performance of prior algorithms.
 <div align=center><img width="600" height="600" src="https://github.com/Wangchangjen/GEC-SR-PR-HyperNets/blob/main/HyperNets-test/Matlab_code/Result.png"/></div>
 
