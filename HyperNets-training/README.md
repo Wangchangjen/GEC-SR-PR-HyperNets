@@ -11,7 +11,7 @@ However, the learning parameters of the existing unfolded algorithms are trained
 Retraining the parameters is often needed in a clinical setting, where different forward models (e.g., measurement distribution and size, and noise level) may be used; otherwise, the stability and optimality of the learned algorithm will be lost.
 Instead of learning a set of optimal damping factors directly, the hypernetwork learns how to generate the optimal damping factors according to the clinical settings, thereby ensuring its adaptivity to different scenarios. For details, please refer to 
 
-C. J. Wang, C. K. Wen, S. H. Tsai, S. Jin, and G. Y. Li, Phase Retrieval using Expectation Consistent Signal Recovery Algorithm based on Hypernetwork, IEEE Trans. signal process., 2021, to appear.
+C. J. Wang, C. K. Wen, S. H. Tsai, S. Jin, and G. Y. Li, Phase Retrieval using Expectation Consistent Signal Recovery Algorithm based on Hypernetwork, IEEE Trans. Signal Process. accepted in Oct. 2021.
 
 We provide the training codes in a way that you can perform based on re-training for different related channel of phase retrieval.
 
