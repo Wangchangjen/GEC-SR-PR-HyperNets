@@ -11,7 +11,7 @@ M = 4*N
 snrdb_train=np.array([20],dtype=np.float64)
 
 snr_train = 10.0 ** (snrdb_train/10.0)  #train_SNR_linear
-batch_size= 0
+batch_size= 40
 train_size = 120
 epochs=10
 itermax=10
